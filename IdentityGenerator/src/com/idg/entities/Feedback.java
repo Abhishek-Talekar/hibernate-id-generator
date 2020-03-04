@@ -3,22 +3,22 @@ package com.idg.entities;
 import java.io.Serializable;
 
 public class Feedback implements Serializable{
-	protected int feedback_number;
-	protected String user_name;
+	protected int feedbackNumber;
+	protected String userName;
 	protected String description;
-	protected String product_name;
+	protected String productName;
 	protected int rating;
-	public int getFeedback_number() {
-		return feedback_number;
+	public int getFeedbackNumber() {
+		return feedbackNumber;
 	}
-	public void setFeedback_number(int feedback_number) {
-		this.feedback_number = feedback_number;
+	public void setFeedbackNumber(int feedbackNumber) {
+		this.feedbackNumber = feedbackNumber;
 	}
-	public String getUser_name() {
-		return user_name;
+	public String getUserName() {
+		return userName;
 	}
-	public void setUser_name(String user_name) {
-		this.user_name = user_name;
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
 	public String getDescription() {
 		return description;
@@ -26,11 +26,11 @@ public class Feedback implements Serializable{
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public String getProduct_name() {
-		return product_name;
+	public String getProductName() {
+		return productName;
 	}
-	public void setProduct_name(String product_name) {
-		this.product_name = product_name;
+	public void setProductName(String productName) {
+		this.productName = productName;
 	}
 	public int getRating() {
 		return rating;
@@ -40,10 +40,9 @@ public class Feedback implements Serializable{
 	}
 	@Override
 	public String toString() {
-		return "Feedback [feedback_number=" + feedback_number + ", user_name=" + user_name + ", description="
-				+ description + ", product_name=" + product_name + ", rating=" + rating + "]";
+		return "Feedback [feedbackNumber=" + feedbackNumber + ", userName=" + userName + ", description=" + description
+				+ ", productName=" + productName + ", rating=" + rating + "]";
 	}
 	
 	
-
 }
